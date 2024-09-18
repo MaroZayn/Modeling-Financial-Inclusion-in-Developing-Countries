@@ -63,27 +63,5 @@ Some variables were transformed into logarithmic form to interpret results in te
 - **log_urban_pop**: Log of urban population.
 - **log_pop_density**: Log of population density.
 
-## Descriptive Statistics
-We computed descriptive statistics for the key variables using the `stargazer` package to summarize the main socio-economic indicators used in our models.
-
-## Correlation Matrix
-A pairwise correlation matrix was computed and visualized using the `corrplot` package to explore the relationships between the variables.
-
-## Results
-
-### OLS Results
-The OLS results are summarized in the following table:
-- **Model 1**: Deposit accounts.
-- **Model 2**: Loans.
-- **Model 3**: Savings.
-- **Model 4**: Financial Inclusion Index.
-
-### 2SLS Results
-The 2SLS (instrumental variables) results are summarized in the following table:
-- **Model 1**: Deposit accounts.
-- **Model 2**: Loans.
-- **Model 3**: Savings.
-- **Model 4**: Financial Inclusion Index.
-
 ## Conclusion
 Our models provide insights into the key determinants of financial inclusion in developing countries, with digital finance playing a significant role. By improving access to digital financial services and infrastructure (e.g., electricity), governments can promote greater financial inclusion.
